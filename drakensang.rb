@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby
+#
+# drakensang.rb - by:proxlu
 
 unless File.exist?("#{ENV['HOME']}/.wine/drive_c/Program Files (x86)/Drakensang Online/thinclient.exe")
   system('wget -P /tmp https://github.com/proxlu/drakensang-linux/raw/main/dro_setup.exe')
