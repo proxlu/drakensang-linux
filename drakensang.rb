@@ -12,4 +12,4 @@ unless File.exist?("#{ENV['HOME']}/.wine/drive_c/Program Files (x86)/Drakensang 
   system('gcc /tmp/extramaus.c -o ~/.wine/drive_c/Program\ Files\ \(x86\)/Drakensang\ Online/extramaus -lX11 -lXext -g')
 end
 
-system('~/.wine/drive_c/Program\ Files\ \(x86\)/Drakensang\ Online/extramaus&wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Drakensang\ Online/thinclient.exe&&kill $!')
+system('~/.wine/drive_c/Program\ Files\ \(x86\)/Drakensang\ Online/extramaus&wine ~/.wine/drive_c/Program\ Files\ \(x86\)/Drakensang\ Online/thinclient.exe -x86_64&&kill $!')
